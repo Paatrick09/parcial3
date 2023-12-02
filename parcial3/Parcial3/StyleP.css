@@ -1,0 +1,799 @@
+body{
+    width: 1300px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+header{
+    background-color:#F4F6F7 ;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.img-menu {
+    cursor: pointer;
+}
+
+.caja-menu-desplegable {
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.caja-menu-desplegable:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu :hover {
+    background-color: black;
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding: 10px 15px;
+    background-color: #96C9EB;
+    display: block;
+    display: none;
+    position: absolute;
+}
+
+.text-sub-menu {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #96C9EB;
+}
+footer{
+    background-color: #96C9EB;
+    text-align:center;
+    margin-top: 10px;
+    height: 200px;
+}
+.titulo-footer{
+    position: relative;
+    top: 175px;
+}
+.toallin-footer{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 550px;
+    bottom: 15px;
+}
+
+.personajes-head{
+    margin-left: 400px;
+    width: 700px;
+    height: 100px;
+}
+.logo-de-pagina{
+    text-align: left;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+.titulo-section-1{
+    background-color: #FF5D00;
+    position: relative;
+    right: 350px;
+    bottom: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 450px;
+   height: 150px;
+   font-size:xx-large;
+   display: flex;
+   justify-content: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.primera-section{
+    background-color: #F4F6F7;
+    padding: 350px;
+    height: 15px;
+}
+
+.imagen-section-1{
+    position: relative;
+    left: 350px;
+    bottom: 500px;
+}
+
+.texto-section-1{
+    position: relative;
+    bottom: 300px;
+    right: 300px;
+}
+.section-2{
+    background-color: #F4F6F7;
+    height: 400px;
+}
+.creadores-imagen{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.titulo-creadores{
+    margin-left: 900px;
+    position: relative;
+    top: 25px;
+}
+.texto-section-2{
+    position: relative;
+    bottom: 300px;
+    left: 800px;
+    font-size: large;
+    width: 300px;
+}
+.temporada-8{
+    width: 325px;
+    height: 550px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #96C9EB;
+    position: relative;
+    left: 150px;
+    bottom: 6px;
+    border-radius: 10px;
+}
+.titulo-t8{
+    margin-left: 100px;
+    position: relative;
+    top: 5px; 
+}
+.texto-t8{
+    width:300px ;
+    margin-left: 10px;
+}
+.temporada-13{
+    width: 350px;
+    height: 550px;
+    position: relative;
+    left: 800px; 
+    bottom: 550px;
+    background-color: #96C9EB;
+    border-radius: 10px;
+}
+.titulo-t13{
+    margin-left: 100px;
+}
+.texto-t13{
+    width:300px ;
+    margin-left: 20px;
+}
+
+.section-3{
+    background-color: #F4F6F7;
+    height: 700px;
+}
+
+.titulo-temporadas{
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.imagen-temp-8{
+    height: 250px;
+    margin-left: 50px;
+}
+.imagen-temp-13{
+    height: 250px;
+    margin-left: 75px;
+    margin-top: 5px;
+
+}
+.section-4{
+    background-color: #96C9EB; 
+    height: 555px;
+}
+.eric{
+    height: 200px;
+    width: 100;
+}
+.kenny{
+    height: 200px;
+    width: 100;  
+}
+.kyle{
+    height: 200px;
+    width: 100;
+}
+.stan{
+    height: 200px;
+    width: 100;
+}
+.section-eric{
+    width: 150px;
+    margin-left: 45px;
+    position: relative;
+    top: 40px;
+}
+.section-kenny{
+    width: 150px;
+    position: relative;
+    left: 350px;
+   bottom: 265px;
+   margin-left: 45px;
+}
+.section-kyle{
+    width: 150px;
+    position: relative;
+    left: 650px;
+   bottom: 550px;
+   margin-left: 45px;
+}
+.section-stan{
+    width: 150px;
+    position: relative;
+    left: 950px;
+   bottom: 850px;
+   margin-left: 45px;
+}
+.texto-section-4{
+    text-align: center;
+    width: 900px;
+    position: relative;
+    bottom: 800px;
+    left: 200px;
+}
+.nombre-eric{
+    margin-left: 30px;
+}
+.link-lectura{
+    width: 100px;
+    position: relative;
+    bottom: 775px;
+    left: 600px;
+    padding: 10px;
+   
+}
+.boton-leer{
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: green;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.section-5{
+    background-color: #F4F6F7;
+    padding: 500px;
+    height: 200px;
+}
+.titulo-5{
+   position: relative;
+   bottom: 500px;
+   right: 400px;
+}
+.toallin{
+    width: 350px;
+    height: 455px;
+    position: relative;
+    right: 450px;
+    bottom: 500px;
+    background-color: #96C9EB;
+    border-radius: 10px;
+}
+.imagen-toallin{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+.titulo-toallin{
+    margin-left: 75px;
+    position: relative;
+    left: 50px;
+}
+.texto-toallin{
+    width: 300px;
+    margin-left: 20px;
+}
+.chef{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    right: 25px;
+    bottom: 950px;
+    background-color: #96C9EB;
+    border-radius: 10px;
+}
+.imagen-chef{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 250px;
+    height: 245px;
+    border-radius: 20px;
+}
+.titulo-chef{
+    margin-left: 75px;
+    position: relative;
+    left: 75px;
+
+}
+.texto-chef{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.alcaldesa{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    left: 400px;
+    bottom: 1400px;
+    background-color: #96C9EB;
+    border-radius: 10px;
+}
+.imagen-alcaldesa{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 250px;
+    height: 245px;
+    border-radius: 20px;
+    
+}
+.titulo-alcaldesa{
+    margin-left: 75px;
+    position: relative;
+    left: 75px;
+}
+.texto-alcaldesa{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.señor-garrison{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    right: 450px;
+    bottom: 1300px;
+    background-color: #96C9EB;
+    border-radius: 10px;
+}
+.imagen-garrison{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 250px;
+    height: 245px;
+    border-radius: 20px;
+}
+.titulo-garrison{
+    margin-left: 75px;
+    position: relative;
+    left: 65px;  
+}
+.texto-garrison{
+    width: 300px;
+    margin-left: 20px;
+}
+.papa-kyle{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    right: 25px;
+    bottom: 1750px;
+    background-color: #96C9EB;
+    border-radius: 10px;
+}
+.imagen-papa-kyle{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 250px;
+    height: 245px;
+    border-radius: 20px;
+}
+.titulo-papa-kyle{
+    margin-left: 75px;
+    position: relative;
+    left: 65px; 
+}
+.texto-papa-kyle{
+    width: 300px;
+    margin-left: 20px;
+}
+.mama-erick{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    left: 400px;
+    bottom: 2200px;
+    background-color: #96C9EB;
+    border-radius: 10px;
+}
+.imagen-mama-erick{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 250px;
+    height: 245px;
+    border-radius: 20px;
+}
+.titulo-mama-erick{
+    margin-left: 75px;
+    position: relative;
+    left: 65px; 
+}
+.texto-mama-erick{
+    width: 300px;
+    margin-left: 20px;
+}
+.section-6{
+ background-color: #fff;
+ height: 625px;
+}
+.imagen-juego{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 175px;
+    margin-left: 175px;
+
+}
+.posicion-titulo{
+    width: 150px;
+    position: relative;
+    left: 860px;
+    bottom:300px;
+}
+.texto-juego{
+    width: 500px;
+    margin-left: 20px;
+}
+.posicion-texto{
+    width: 150px;
+    position: relative;
+    left: 700px;
+    bottom:250px;
+}
+.section-7{
+    background-color: #F4F6F7;
+    height: 900px;
+}
+.suscripcion{
+    width: 350px;
+    height: 650px;
+    position: relative;
+    left: 250px;
+    top: 100px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+.imagen-suscripcion{
+   margin-left: 75px;
+   margin-top: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+}
+.titulo-suscripcion{
+    margin-left: 135px;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+.boton-suscripcion{
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+}
+.btn{
+    position: relative;
+    left: 150px;
+    top:25px;
+}
+.sitio-free{
+    position: relative;
+    left: 1px;
+    top:75px;
+}
+.south-free{
+    margin-left: 75px;
+    margin-top: 5px;
+     height: 200px;
+     width: 200px;
+     border-radius: 40px;
+}
+.btn-south{
+    position: relative;
+    left: 150px;
+    top:100px;
+}
+.boton-south{
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+}
+
+.juego-ps4{
+    width: 350px;
+    height: 650px;
+    position: relative;
+    left: 800px;
+    bottom: 570px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+.titulo-ps4{
+    margin-left: 135px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.imagen-ps4{
+    margin-left: 75px;
+   margin-top: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+}
+.link-juego{
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+}
+.posicion-ps4{
+    position: relative;
+    left: 125px;
+    top:25px;
+}
+.posicion-xbox{
+    position: relative;
+    left: 1px;
+    top:75px;
+}
+.juego-xbox{
+    margin-left: 75px;
+    margin-top: 5px;
+     height: 200px;
+     width: 200px;
+     border-radius: 40px;
+}
+.btn-xbox{
+    position: relative;
+    left: 125px;
+    top:100px;
+}
+.link-xbox{
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+}
+.section-8{
+    background-color: #fff;
+    height: 750px;
+
+}
+.titulo-8{
+    text-align: center;
+    position: relative;
+    top: 8px;
+
+
+}
+.tom-cruise{
+    height: 275px;
+    width: 300px;
+    background-color: #F4F6F7;
+    position: relative;
+    left: 450px;
+    top: 20px;
+    border-radius: 25px;
+}
+.imagen-tom{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+.nombre-tom{
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}
+.kanye-west{
+    height: 275px;
+    width: 300px;
+    background-color: #F4F6F7;
+    position: relative;
+    left: 950px;
+    bottom: 273px;
+    border-radius: 25px;
+}
+.imagen-kanye{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px; 
+}
+.nombre-kanye{
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}
+.paris-hilton{
+    height: 275px;
+    width: 300px;
+    background-color: #F4F6F7;
+    position: relative;
+    left: 700px;
+    bottom: 255px;
+    border-radius: 25px;
+}
+.nombre-paris{
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}
+.imagen-paris{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;  
+}
+.michael-jackson{
+    height: 275px;
+    width: 300px;
+    background-color: #F4F6F7;
+    position: relative;
+    left: 200px;
+    bottom: 550px;
+    border-radius: 25px;
+}
+.nombre-michael{
+    margin-left: 85px;
+    position: relative;
+    top: 10px;
+}
+.imagen-michael{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.boton-celebridades{
+    width: 150px;
+    position: relative;
+    left: 600px;
+    bottom:500px;
+}
+.btn-celebridades{
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+}
+.section-9{
+    background-color: #F4F6F7;
+    height: 500px;
+}
+.comedy-central{
+    width: 150px;
+    position: relative;
+    left: 100px;
+}
+.imagen-comedy{
+    width: 150px;
+    height: 250px;
+}
+.la-red{
+    width: 150px;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+.imagen-red{
+    width: 150px;
+    height: 150px;
+}
+.univision{
+    width: 150px;
+    position: relative;
+    left: 900px;
+    bottom: 350px;
+}
+.imagen-univision{
+    width: 150px;
+    height: 150px;
+}
+.pluto-tv{
+    width: 150px;
+    position: relative;
+    left: 900px;
+    bottom: 250px;
+}
+.imagen-pluto{
+    width: 150px;
+    height: 150px;
+}
+.mtv{
+    width: 150px;
+    position: relative;
+    left: 500px;
+    bottom: 400px; 
+}
+.imagen-mtv{
+    width: 150px;
+    height: 150px;
+}
+.rcn-television{
+    width: 150px;
+    position: relative;
+    left: 100px;
+    bottom: 550px; 
+}
+.imagen-rcn{
+    width: 150px;
+    height: 150px;
+}
+.section-10{
+    background-color: #F4F6F7;
+    height: 450px;
+}
+.formulario {
+    position: relative;
+    top: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: green;
+}
